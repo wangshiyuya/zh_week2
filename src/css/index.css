@@ -1,0 +1,74 @@
+*{
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.box{
+	width:100%;
+	overflow: hidden;
+}
+header{
+	width: 100%;
+	background: #fc3668;
+	height: 44px;
+	font-size: 16px;
+}
+header ul{
+	width: 100%;
+	height: 44px;
+	display: flex;
+	color: #fff;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.banner{
+	width: 95%;
+
+}
+.banner img{
+	width: 100%;
+	margin:0 auto;
+}
+.list{
+	width: 100%;
+	margin-top:10px;
+}
+.list ul{
+	width: 100%;
+	display: flex;
+}
+.list ul li{
+	box-sizing: border-box;
+	margin: 0 15px;
+	color: #FC3668;
+	font-weight: 900;
+}
+.connec{
+	margin-top:10px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.connec dl{
+	margin: 5px 0;
+	border:1px solid #ccc;
+	width: 45%;
+}
+.connec dl dt{
+width: 100%;
+}
+.connec dl dt img{
+width: 100%;
+}
+.connec dl dd{
+	line-height: 25px;
+}
