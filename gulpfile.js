@@ -17,10 +17,8 @@ gulp.task('server',function(){
 	}))
 })
 
-gulp.task('watch',function(){
-	return gulp.watch('src/scss/*.scss',gulp.series('scss'))
-})
+gulp.task('watch', function() {
+    return gulp.watch('./src/scss/*.scss', gulp.series('scss'));
+});
 
-gulp.task('defult',function(){
-	return gulp.watch('src',gulp.series('watch','server'))
-})
+gulp.task('default', gulp.parallel('scss', 'server', 'watch'));
